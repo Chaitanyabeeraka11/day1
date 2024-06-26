@@ -1,12 +1,12 @@
-import ButtonAppBar from "./Appbar";
-import Footer from "./Footer";
-import Header from "./Header";
+
+import PersistentDrawerLeft from "./Sidebar";
+// import SimpleContainer from "./SimpleContainer";
 function App() {
   return (
     <div>
-      <ButtonAppBar />
-      <Header />
-      <Footer />
+      {/* <ButtonAppBar /> */}
+      <PersistentDrawerLeft />
+      {/* <SimpleContainer /> */}
       
     </div>
   );
