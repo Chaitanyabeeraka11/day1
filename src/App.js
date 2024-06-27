@@ -4,10 +4,7 @@ import PersistentDrawerLeft from "./Sidebar";
 function App() {
   return (
     <div>
-      {/* <ButtonAppBar /> */}
       <PersistentDrawerLeft />
-      {/* <SimpleContainer /> */}
-      
     </div>
   );
 }
